@@ -6,14 +6,14 @@ var geckodriver = require('geckodriver');
 
 var config = {
     src_folders: [
-        "e2e_tests/Google.js"
+        "e2e_tests/SMED.js"
     ],
     output_folder: "e2e_test_reports",
     selenium: {
         // Information for selenium, such as the location of the drivers ect.
         start_process: true,
         server_path: seleniumServer.path,
-        port: 5324, // Standard selenium port
+        port: 4444, // Standard selenium port
         cli_args: {
             'webdriver.chrome.driver': chromedriver.path,
             'webdriver.gecko.driver': geckodriver.path
@@ -54,7 +54,7 @@ var config = {
                 acceptSslCerts: true,
                 nativeEvents: true,
                 chromeOptions: {
-                    args: [ 'window-size=1280,800', ]
+                    args: [ 'window-size=1480,950', ]
                     }
 
             }
