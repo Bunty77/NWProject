@@ -6,7 +6,7 @@ var geckodriver = require('geckodriver');
 
 var config = {
     src_folders: [
-        "e2e_tests/SMED.js"
+        "e2e_tests/Google.js"
     ],
     output_folder: "e2e_test_reports",
     selenium: {
