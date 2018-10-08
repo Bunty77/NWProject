@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="15">
+
+  <testsuite name="SMED"
+    errors="1" failures="0" hostname="" id="" package="SMED" skipped="14"
+    tests="15" time="0.005000" timestamp="Fri, 05 Oct 2018 10:41:27 GMT">
+  
+    <testcase name="Verifying Login For SpringerMedizin " classname="SMED" time="0.005000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [SMED / Verifying Login For SpringerMedizin ]:
+
+  TypeError: browser.url(...).waitForElementEnable is not a function
+    at Object.Verifying Login For SpringerMedizin  (/Users/nso4579/Documents/Protractor/e2e_tests/SMED.js:6:10)
+    at Module.call (/Users/nso4579/Documents/Protractor/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/Protractor/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/Protractor/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/Protractor/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/Protractor/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/Protractor/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/Protractor/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/Protractor/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Verifying CME , List of all Course" classname="SMED">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verifying Course Title on Overview Page" classname="SMED">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verifying Course Start on Detail Page" classname="SMED">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Switch Window" classname="SMED">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Course Icon at Top" classname="SMED">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify CME-Fragebogan " classname="SMED">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Question And Answers 2" classname="SMED">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Question And Answers 3" classname="SMED">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Question And Answers 4" classname="SMED">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Question And Answers 5" classname="SMED">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Question And Answers 6" classname="SMED">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Question And Answers 7" classname="SMED">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Question And Answers 8" classname="SMED">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Question And Answers 9" classname="SMED">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
