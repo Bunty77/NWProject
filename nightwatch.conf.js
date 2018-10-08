@@ -3,6 +3,7 @@ var seleniumServer = require('selenium-server');
 var chromedriver = require('chromedriver');
 var geckodriver = require('geckodriver');
 
+
 var config = {
     src_folders: [
         "e2e_tests/SMED.js"
@@ -12,7 +13,7 @@ var config = {
         // Information for selenium, such as the location of the drivers ect.
         start_process: true,
         server_path: seleniumServer.path,
-        port: 4444, // Standard selenium port
+        port: 5324, // Standard selenium port
         cli_args: {
             'webdriver.chrome.driver': chromedriver.path,
             'webdriver.gecko.driver': geckodriver.path
