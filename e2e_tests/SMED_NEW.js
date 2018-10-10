@@ -8,7 +8,7 @@ module.exports = {
         .setValue('input[name=username]','nemo.pune77@gmail.com')
         .setValue('input[name=password]','Admin@12345')
         .click('input[name=submit]')
-
+.pause("9000")
       },
 
       'Verifying CME , List of all Course': function(browser)
