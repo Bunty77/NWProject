@@ -37,7 +37,8 @@ module.exports = {
         .waitForElementVisible(".//*[@id='main']/div[3]/section/header/ul/li/a/span")
         .click(".//*[@id='main']/div[3]/section/header/ul/li/a/span")
         .pause(3000)
-        
+        var io = browser.getTitle()
+  console.log("Title:"+io)
       },
 
 'Switch Window' : function(browser)
@@ -49,6 +50,28 @@ module.exports = {
                 this.switchWindow(newHandle);
             })
             
+},
+'Verify Fragebogan' : function(browser)
+{
+  browser
+  .pause(5000)
+  .frame(0)
+  .waitForElementVisible(".//*[@id='furtherinfoLinkd_quiz']")
+  .pause(5000)
+  .click(".//*[@id='furtherinfoLinkd_quiz']")
+
+},
+
+'Verify Course is Started' : function(browser)
+{
+  browser
+  .pause(5000)
+  .waitForElementVisible(".//*[@id='a_startQuiz']")
+  .click(".//*[@id='a_startQuiz']")
+
+  
+  
 }
+
 
 };
