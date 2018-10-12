@@ -54,7 +54,7 @@ module.exports = {
 'Verify Course Icon at Top' : function(browser)
 {
 browser
-.pause(3000)
+.pause(7000)
 .waitForElementVisible(".//*[@id='root']/div/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[1]/a")
 .click(".//*[@id='root']/div/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[1]/a")
 
@@ -76,76 +76,10 @@ browser
 {
   browser
   .waitForElementVisible(".//*[contains(text(),'Hyperglykämie')]")
-  //.pause(8000)
+  .pause(5000)
   .click(".//*[contains(text(),'Hyperglykämie')]")
   //.pause(2000)
- },
- 'Verify Question And Answers 3': function(browser)
-{
-  browser
-  .waitForElementVisible(".//*[contains(text(),'5–6 cm')]")
-  //.pause(8000)
-  .click(".//*[contains(text(),'5–6 cm')]")
-  //.pause(2000)
- },
- 'Verify Question And Answers 4': function(browser)
-{
-  browser
-  .waitForElementVisible(".//*[contains(text(),'Fortsetzung der CPR')]")
-  //.pause(8000)
-  .click(".//*[contains(text(),'Fortsetzung der CPR')]")
-  //.pause(2000)
- },
- 'Verify Question And Answers 5': function(browser)
-{
-  browser
-  .waitForElementVisible(".//*[contains(text(),'10 s')]")
-  //.pause(8000)
-  .click(".//*[contains(text(),'10 s')]")
-  //.pause(2000)
- },
- 'Verify Question And Answers 6': function(browser)
-{
-  browser
-  .waitForElementVisible(".//*[contains(text(),'36°C')]")
-  //.pause(8000)
-  .click(".//*[contains(text(),'36°C')]")
-  //.pause(2000)
- },
- 'Verify Question And Answers 7': function(browser)
-{
-  browser
-  .waitForElementVisible(".//*[contains(text(),'32°C')]")
-  //.pause(8000)
-  .click(".//*[contains(text(),'32°C')]")
-  //.pause(2000)
- },
- 'Verify Question And Answers 8': function(browser)
-{
-  browser
-  .waitForElementVisible(".//*[contains(text(),'Sepsis')]")
-  //.pause(8000)
-  .click(".//*[contains(text(),'Sepsis')]")
-  //.pause(2000)
- },
- 'Verify Question And Answers 9': function(browser)
-{
-  browser
-  .waitForElementVisible(".//*[contains(text(),'2 min')]")
-  //.pause(8000)
-  .click(".//*[contains(text(),'2 min')]")
-  //.pause(2000)
- },
-
- 'Verify Evaluation Questions': function(browser)
-{
-  browser
-  .waitForElementVisible(".//*[@class='fUVAUYRWUKWnOVZXnKV8']")
-  .pause(8000)
-  .click(".//*[@class='fUVAUYRWUKWnOVZXnKV8']")
-  
-}
-
-
+ }
+ 
 
  };
