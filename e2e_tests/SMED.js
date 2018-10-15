@@ -18,7 +18,7 @@ module.exports = {
         .waitForElementVisible("//*[@class='main-navigation-teaser']/li[5]/a/span")
         .click("//*[@class='main-navigation-teaser']/li[5]/a/span")
         .waitForElementVisible(".//*[@id='main']/section[1]/div/div[1]/a/span[1]")
-        .pause(1000)
+        .pause(3000)
         .click(".//*[@id='main']/section[1]/div/div[1]/a/span[1]")
         .pause(2000)
       },
@@ -91,28 +91,51 @@ browser
 'Evalution Questions Started': function(browser)
 {
   browser
-  .pause(8000)
+  .pause(3000)
   .waitForElementVisible(".//*[contains(text(),'4 ausreichend')]")
-  .pause(5000)
+  .pause(3000)
   .click(".//*[contains(text(),'4 ausreichend')]")
-  .pause(8000)
+  .pause(3000)
   .waitForElementVisible(".//*[contains(text(),'in meiner Arbeitszeit.')]")
-  .pause(5000)
+  .pause(3000)
   .click(".//*[contains(text(),'in meiner Arbeitszeit.')]")
-  .pause(8000)
+  .pause(3000)
   .waitForElementVisible(".//*[contains(text(),'selten')]")
-.pause(5000)
+.pause(3000)
   .click(".//*[contains(text(),'selten')]")
-  .pause(8000)
+  .pause(3000)
   
   .waitForElementVisible(".//*[contains(text(),'noch offene Punkte.')]")
-  .pause(5000)
+  .pause(3000)
   .click(".//*[contains(text(),'noch offene Punkte.')]")
-  .pause(8000)
+  .pause(3000)
   .waitForElementVisible(".//*[contains(text(),'anderes.')]")
-  .pause(5000)
+  .pause(3000)
   .click(".//*[contains(text(),'anderes.')]")
-  .pause(5000)
+  .pause(3000)
+  
+ },
+
+
+ 'Verify Data is Enter': function(browser)
+ {
+browser
+.pause(2000)
+.waitForElementVisible(".//*[@id='root']/div/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div/div/div[1]/div[2]/div/div[6]/div/div[2]/div/div/div/textarea")
+  .pause(3000)
+  
+  .setValue(".//*[@id='root']/div/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div/div/div[1]/div[2]/div/div[6]/div/div[2]/div/div/div/textarea",'This is Test Data')
+
+ },
+
+ 'Final Submit': function(browser)
+ {
+browser
+.pause(3000)
+.waitForElementVisible(".//*[@class='fUVAUYRWUKWnOVZXnKV8']")
+.click(".//*[@class='fUVAUYRWUKWnOVZXnKV8']")
+.pause(5000)
+
  }
 
 
