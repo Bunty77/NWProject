@@ -79,7 +79,41 @@ browser
   .pause(5000)
   .click(".//*[contains(text(),'Hyperglykämie')]")
   //.pause(2000)
- }
+  .pause(8000)
+  .waitForElementVisible(".//*[@class='fUVAUYRWUKWnOVZXnKV8']")
+  
+  .click(".//*[@class='fUVAUYRWUKWnOVZXnKV8']")
+
+ },
  
+
+
+'Evalution Questions Started': function(browser)
+{
+  browser
+  .pause(8000)
+  .waitForElementVisible(".//*[contains(text(),'4 ausreichend')]")
+  .pause(5000)
+  .click(".//*[contains(text(),'4 ausreichend')]")
+  .pause(8000)
+  .waitForElementVisible(".//*[contains(text(),'in meiner Arbeitszeit.')]")
+  .pause(5000)
+  .click(".//*[contains(text(),'in meiner Arbeitszeit.')]")
+  .pause(8000)
+  .waitForElementVisible(".//*[contains(text(),'selten')]")
+.pause(5000)
+  .click(".//*[contains(text(),'selten')]")
+  .pause(8000)
+  
+  .waitForElementVisible(".//*[contains(text(),'noch offene Punkte.')]")
+  .pause(5000)
+  .click(".//*[contains(text(),'noch offene Punkte.')]")
+  .pause(8000)
+  .waitForElementVisible(".//*[contains(text(),'anderes.')]")
+  .pause(5000)
+  .click(".//*[contains(text(),'anderes.')]")
+  .pause(5000)
+ }
+
 
  };
