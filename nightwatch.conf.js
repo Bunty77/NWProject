@@ -54,7 +54,7 @@ var config = {
                 acceptSslCerts: true,
                 nativeEvents: true,
                 chromeOptions: {
-                    args: [ 'window-size=1480,950', ]
+                    args: [ 'window-size=1480,950','headless' ]
                     }
 
             }

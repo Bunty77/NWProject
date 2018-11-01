@@ -71,72 +71,99 @@ browser
 
 //Question And Answers Selection 
 
+'move to': function(browser)
+{
+browser
+.moveTo("//*[contains(text(),'2 min')]",200,300,function(){
+  browser.pause(4000)
+})
+
+},
+
 
 'Verify Question And Answers 2': function(browser)
 {
   browser
-  .waitForElementVisible(".//*[contains(text(),'Hyperglykämie')]")
-  .pause(5000)
-  .click(".//*[contains(text(),'Hyperglykämie')]")
-  //.pause(2000)
+  .waitForElementVisible("//*[contains(text(),'Hyperglykämie')]")
   .pause(8000)
-  .waitForElementVisible(".//*[@class='fUVAUYRWUKWnOVZXnKV8']")
+  .click("//*[contains(text(),'Hyperglykämie')]")
   
-  .click(".//*[@class='fUVAUYRWUKWnOVZXnKV8']")
 
- },
- 
+},
 
 
-'Evalution Questions Started': function(browser)
+
+
+'Verify Question And Answers 3': function(browser)
 {
   browser
-  .pause(3000)
-  .waitForElementVisible(".//*[contains(text(),'4 ausreichend')]")
-  .pause(3000)
-  .click(".//*[contains(text(),'4 ausreichend')]")
-  .pause(3000)
-  .waitForElementVisible(".//*[contains(text(),'in meiner Arbeitszeit.')]")
-  .pause(3000)
-  .click(".//*[contains(text(),'in meiner Arbeitszeit.')]")
-  .pause(3000)
-  .waitForElementVisible(".//*[contains(text(),'selten')]")
-.pause(3000)
-  .click(".//*[contains(text(),'selten')]")
-  .pause(3000)
+  .waitForElementVisible("//*[contains(text(),'5–6 cm')]")
+  .pause(8000)
+  .click("//*[contains(text(),'5–6 cm')]")
   
-  .waitForElementVisible(".//*[contains(text(),'noch offene Punkte.')]")
-  .pause(3000)
-  .click(".//*[contains(text(),'noch offene Punkte.')]")
-  .pause(3000)
-  .waitForElementVisible(".//*[contains(text(),'anderes.')]")
-  .pause(3000)
-  .click(".//*[contains(text(),'anderes.')]")
-  .pause(3000)
+
+},
+
+
+
+'Verify Question And Answers 4': function(browser)
+{
+  browser
+  .getLocationInView("//*[contains(text(),'Puls tasten zentral')]")
+  .pause(5000)
+  .click("//*[contains(text(),'Puls tasten zentral')]")
+
+},
+
+'Verify Question And Answers 5': function(browser)
+{
+  browser
+  .waitForElementVisible("//*[contains(text(),'10 s')]")
+  .pause(8000)
+  .click("//*[contains(text(),'10 s')]")
   
- },
 
+},
 
- 'Verify Data is Enter': function(browser)
- {
-browser
-.pause(2000)
-.waitForElementVisible(".//*[@id='root']/div/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div/div/div[1]/div[2]/div/div[6]/div/div[2]/div/div/div/textarea")
-  .pause(3000)
+'Verify Question And Answers 6': function(browser)
+{
+  browser
+  .waitForElementVisible("//*[contains(text(),'36°C')]")
+  .pause(8000)
+  .click("//*[contains(text(),'36°C')]")
   
-  .setValue(".//*[@id='root']/div/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div/div/div[1]/div[2]/div/div[6]/div/div[2]/div/div/div/textarea",'This is Test Data')
 
- },
+},
 
- 'Final Submit': function(browser)
- {
-browser
-.pause(3000)
-.waitForElementVisible(".//*[@class='fUVAUYRWUKWnOVZXnKV8']")
-.click(".//*[@class='fUVAUYRWUKWnOVZXnKV8']")
-.pause(5000)
+'Verify Question And Answers 7': function(browser)
+{
+  browser
+  .waitForElementVisible("//*[contains(text(),'32°C')]")
+  .pause(8000)
+  .click("//*[contains(text(),'32°C')]")
+  
 
- }
+},
+
+'Verify Question And Answers 8': function(browser)
+{
+  browser
+  .waitForElementVisible("//*[contains(text(),'Sepsis')]")
+  .pause(8000)
+  .click("//*[contains(text(),'Sepsis')]")
+  
+
+},
+
+'Verify Question And Answers 9': function(browser)
+{
+  browser
+  .waitForElementVisible("//*[contains(text(),'2 min')]")
+  .pause(8000)
+  .click("//*[contains(text(),'2 min')]")
+  
+
+},
 
 
  };

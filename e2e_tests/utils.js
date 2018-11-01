@@ -6,7 +6,7 @@ browser
 .url("http://nemo-angler-staging.dev.cf.private.springer.com/login")
 .waitForElementVisible('body', 1000)
 .setValue('input[name=username]','nso4579')
-.setValue('input[name=password]','Vandana@2017')
+.setValue('input[name=password]','Vrushali@2017')
 .useXpath()
 .waitForElementVisible(".//*[@type='submit']")
 .click(".//*[@type='submit']")
