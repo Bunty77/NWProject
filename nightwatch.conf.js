@@ -6,9 +6,10 @@ var geckodriver = require('geckodriver');
 
 var config = {
     src_folders: [
-        "e2e_tests/SmokeTest.js"
+        "tests"
     ],
     output_folder: "e2e_test_reports",
+    page_objects_path : "pages",
     selenium: {
         // Information for selenium, such as the location of the drivers ect.
         start_process: true,
@@ -54,7 +55,7 @@ var config = {
                 acceptSslCerts: true,
                 nativeEvents: true,
                 chromeOptions: {
-                    args: [ 'window-size=1480,950','headless' ]
+                    args: [ 'window-size=1480,950']
                     }
 
             }
