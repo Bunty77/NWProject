@@ -1,11 +1,10 @@
 var utils = require('../pages/utils');
-var msg = require('../pages/test')
 module.exports = {
-'@tags' : ['login'],
+'@tags' : ['bsllogin'],
 before : function (browser)
 {
     console.log("Open The Browser")
-    utils(browser).openBrowser(msg.mmoncology);
+    utils(browser).openBrowser();
 },
 
 'Go to login page': function(browser)

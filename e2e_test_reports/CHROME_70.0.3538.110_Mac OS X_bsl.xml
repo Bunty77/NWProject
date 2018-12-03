@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="3"
+<testsuites errors="4"
             failures="1"
             tests="2">
 
-  <testsuite name="login"
-    errors="3" failures="1" hostname="" id="" package="login" skipped="0"
-    tests="2" time="12.75" timestamp="Mon, 03 Dec 2018 11:59:48 GMT">
+  <testsuite name="bsl"
+    errors="4" failures="1" hostname="" id="" package="bsl" skipped="0"
+    tests="2" time="5.695" timestamp="Mon, 03 Dec 2018 11:59:39 GMT">
   
-    <testcase name="Go to login page" classname="login" time="8.853" assertions="2">
+    <testcase name="Go to login page" classname="bsl" time="2.152" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="login as admin" classname="login" time="3.896" assertions="1">  <failure message="Testing if the page title equals &#34;Springer Medizin – Mein Arztwissen | springermedizin.de&#34;.">    at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:34:13)
-    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/login.js:18:20)</failure>
+    <testcase name="login as admin" classname="bsl" time="3.543" assertions="1">  <failure message="Testing if the page title equals &#34;Springer Medizin – Mein Arztwissen | springermedizin.de&#34;.">    at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:34:13)
+    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:17:20)</failure>
 
     
     </testcase>

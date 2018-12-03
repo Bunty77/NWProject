@@ -1,14 +1,17 @@
+var msg = require('../pages/test')
 module.exports = function(browser)
 {
 
- this.openBrowser = function()
+ this.openBrowser = function(flavor)
 {
     console.log("Url Entered");
+    console.log("Flavor:"+flavor)
     browser
     .windowMaximize()
-    .url('https://www.springermedizin.de/')
+    .url(flavor)
     .waitForElementVisible('body',7000);
-     return browser;
+    console.log("Url Entered");
+    return browser;
     
      
 };
