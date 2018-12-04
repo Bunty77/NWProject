@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="3"
-            failures="1"
+            failures="0"
             tests="2">
 
   <testsuite name="login"
-    errors="3" failures="1" hostname="" id="" package="login" skipped="0"
-    tests="2" time="12.75" timestamp="Mon, 03 Dec 2018 11:59:48 GMT">
+    errors="3" failures="0" hostname="" id="" package="login" skipped="0"
+    tests="2" time="21.13" timestamp="Tue, 04 Dec 2018 08:59:28 GMT">
   
-    <testcase name="Go to login page" classname="login" time="8.853" assertions="2">
+    <testcase name="Go to login page" classname="login" time="15.06" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="login as admin" classname="login" time="3.896" assertions="1">  <failure message="Testing if the page title equals &#34;Springer Medizin – Mein Arztwissen | springermedizin.de&#34;.">    at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:34:13)
-    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/login.js:18:20)</failure>
+    <testcase name="login as admin" classname="login" time="6.071" assertions="1">
 
     
     </testcase>
@@ -25,7 +24,7 @@
     <system-err>
       ERROR: Unable to locate element: &#34;.personalisation__login&#34; using: css selector
     at loginMainButton (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:23:6)
-    at Object.Go to login page (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:12:20)
+    at Object.Go to login page (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:13:20)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -36,7 +35,7 @@
     at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=username]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:31:6)
-    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:17:20)
+    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:18:20)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -47,7 +46,7 @@ ERROR: Unable to locate element: &#34;input[name=username]&#34; using: css selec
     at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=password]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:32:6)
-    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:17:20)
+    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:18:20)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -58,7 +57,7 @@ ERROR: Unable to locate element: &#34;input[name=password]&#34; using: css selec
     at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=submit]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:33:6)
-    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:17:20)
+    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:18:20)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)

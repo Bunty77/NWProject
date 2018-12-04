@@ -3,18 +3,18 @@
             failures="0"
             tests="2">
 
-  <testsuite name="bsl"
-    errors="3" failures="0" hostname="" id="" package="bsl" skipped="0"
-    tests="2" time="18.06" timestamp="Tue, 04 Dec 2018 10:41:18 GMT">
+  <testsuite name="macmillian"
+    errors="3" failures="0" hostname="" id="" package="macmillian" skipped="0"
+    tests="2" time="16.70" timestamp="Tue, 04 Dec 2018 10:41:39 GMT">
   
-    <testcase name="Go to login page" classname="bsl" time="11.99" assertions="2">
+    <testcase name="Go to login page" classname="macmillian" time="10.63" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="login as admin" classname="bsl" time="6.074" assertions="0">
+    <testcase name="login as admin" classname="macmillian" time="6.066" assertions="0">
     </testcase>
   
 

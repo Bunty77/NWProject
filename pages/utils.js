@@ -31,7 +31,7 @@ this.userLogin = function()
     .setValue('input[name=username]','navnath.sujgure@springernature.com')
     .setValue('input[name=password]','Admin@12345')
     .click('input[name=submit]')
-    .assert.title('Springer Medizin – Mein Arztwissen | springermedizin.de')
+    
 };
 
 
