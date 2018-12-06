@@ -49,10 +49,47 @@ module.exports = {
     register(browser).dateofBirth();
 },
 
+'Enter Street': function(browser)
+{
+    register(browser).street();
+},
+
+'Enter Houseno': function(browser)
+{
+register(browser).houseno();
+},
+
+'Enter Addition house no Information': function(browser)
+{
+    register(browser).housenoaddition();
+},
+
+'Enter Postal Code' : function(browser)
+{
+register(browser).postalcode();
+},
+
+'Enter City' : function(browser)
+{
+    register(browser).city();
+},
+
+'Enter Country' : function(browser)
+{
+    register(browser).Country();
+},
+
+'Enter Job' : function(browser)
+{
+   // register(browser).job();
+   browser
+   .pause(90000000)
+},
+
 after: function(browser)
 {
    
-    utils(browser).closeBrowser();
+   // utils(browser).closeBrowser();
     console.log("Browser Close")
 }
 

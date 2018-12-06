@@ -81,6 +81,70 @@ module.exports = function(browser)
         .setValue('#mwf54','01/12/1970')
     }
 
+    this.street = function()
+    {
+        browser
+        .pause(3000)
+        .waitForElementVisible('#mwf60')
+        .setValue('#mwf60','SpringerNature Pvt Ltd,5th Floor,Tower 9.')
+    }
+
+    this.houseno = function()
+    {
+        browser
+        .pause(3000)
+        .waitForElementVisible('#mwf61')
+        .setValue('#mwf61','SpringerNature Pvt Ltd,5th Floor,Tower 9')
+    }
+
+    this.housenoaddition = function()
+    {
+        browser
+        .pause(3000)
+        .waitForElementVisible('#mwf63')
+        .setValue('#mwf63','Addition house no information')
+    }
+
+    this.postalcode = function()
+    {
+        browser
+        .pause(3000)
+        .waitForElementVisible('#mwf64')
+        .setValue('#mwf64','422401')
+    }
+
+    this.city = function()
+    {
+        browser
+        .pause(3000)
+        .waitForElementVisible('#mwf65')
+        .setValue('#mwf65','Pune')
+
+    }
+
+
+    this.Country = function()
+    {
+        console.log("Enter Salutation")
+        browser
+        .waitForElementVisible('#mwf66')
+        .click('#mwf66')
+        .click('option[value="IN"]')
+        .click('#mwf66')
+        .pause(4000)
+    }
+
+    this.job = function()
+    {
+        browser
+        .waitForElementVisible('//*[@id="main"]/div[1]/div/div/form/div[26]/div/select')
+        .useXpath()
+        .click('//*[@id="main"]/div[1]/div/div/form/div[26]/div/select')
+        .click('option[value="PTA"]')
+        .click('//*[@id="main"]/div[1]/div/div/form/div[26]/div/select')
+        .pause(3000)
+    }
+
     return this;
 
 };
