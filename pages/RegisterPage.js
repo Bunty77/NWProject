@@ -94,7 +94,7 @@ module.exports = function(browser)
         browser
         .pause(3000)
         .waitForElementVisible('#mwf61')
-        .setValue('#mwf61','SpringerNature Pvt Ltd,5th Floor,Tower 9')
+        .setValue('#mwf61','123')
     }
 
     this.housenoaddition = function()
@@ -137,12 +137,38 @@ module.exports = function(browser)
     this.job = function()
     {
         browser
-        .waitForElementVisible('//*[@id="main"]/div[1]/div/div/form/div[26]/div/select')
-        .useXpath()
-        .click('//*[@id="main"]/div[1]/div/div/form/div[26]/div/select')
+        .waitForElementVisible(".webform__select[name='professionData.professionGroup']")
+        .useCss()
+        .click(".webform__select[name='professionData.professionGroup']'")
         .click('option[value="PTA"]')
-        .click('//*[@id="main"]/div[1]/div/div/form/div[26]/div/select')
+        .click(".webform__select[name='professionData.professionGroup']'")
         .pause(3000)
+    },
+
+    this.workarea = function()
+    {
+        browser
+        .waitForElementVisible(".webform__select[name='professionData.workingArea']")
+        .useCss()
+        .click(".webform__select[name='professionData.workingArea']")
+        .click('option[value="Apotheke"]')
+        .click(".webform__select[name='professionData.workingArea']")
+        .pause(3000)  
+    }
+
+    this.checkbox1 = function()
+    {
+        browser
+        .waitForElementVisible('#acceptTerms_0_9223422')
+        .click('#acceptTerms_0_9223422')
+
+    }
+
+    this.submit = function()
+    {
+        browser
+        .waitForElementVisible('#submit_0')
+        .click('submit_0')
     }
 
     return this;

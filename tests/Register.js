@@ -72,6 +72,7 @@ register(browser).postalcode();
 'Enter City' : function(browser)
 {
     register(browser).city();
+
 },
 
 'Enter Country' : function(browser)
@@ -81,9 +82,26 @@ register(browser).postalcode();
 
 'Enter Job' : function(browser)
 {
-   // register(browser).job();
+   register(browser).job();
    browser
-   .pause(90000000)
+   .pause(3000)
+},
+
+'Enter Work Area' : function(browser)
+{
+   register(browser).workarea();
+   browser
+   .pause(3000)
+},
+
+'Checkbox first' : function(browser)
+{
+    register(browser).checkbox1();
+},
+
+'click on submit':function(browser)
+{
+register(browser).submit();
 },
 
 after: function(browser)

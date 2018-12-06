@@ -5,16 +5,16 @@
 
   <testsuite name="mmoncology"
     errors="3" failures="0" hostname="" id="" package="mmoncology" skipped="0"
-    tests="2" time="18.39" timestamp="Tue, 04 Dec 2018 10:42:21 GMT">
+    tests="2" time="37.68" timestamp="Thu, 06 Dec 2018 09:23:55 GMT">
   
-    <testcase name="Go to login page" classname="mmoncology" time="12.34" assertions="2">
+    <testcase name="Go to login page" classname="mmoncology" time="31.63" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="login as admin" classname="mmoncology" time="6.053" assertions="0">
+    <testcase name="login as admin" classname="mmoncology" time="6.052" assertions="0">
     </testcase>
   
 
@@ -23,234 +23,234 @@
       ERROR: Unable to locate element: &#34;input[name=username]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:31:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=password]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:32:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=submit]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:33:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=username]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:31:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/macmillian.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=password]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:32:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/macmillian.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=submit]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:33:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/macmillian.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=username]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:31:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/mmdiabetes.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=password]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:32:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/mmdiabetes.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=submit]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:33:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/mmdiabetes.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=username]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:31:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/mmoncology.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=password]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:32:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/mmoncology.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=submit]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:33:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/mmoncology.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=username]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:31:6)
-    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/mmremutology.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/pflegenzuhause.js:18:20)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=password]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:32:6)
-    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/mmremutology.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/pflegenzuhause.js:18:20)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=submit]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:33:6)
-    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/mmremutology.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/pflegenzuhause.js:18:20)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=username]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:31:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/smed.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=password]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:32:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/smed.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=submit]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:33:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/smed.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=username]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:31:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/spflege.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=password]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:32:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/spflege.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=submit]&#34; using: css selector
     at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:33:6)
     at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/spflege.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at Module.call (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:796:13)
+    at /Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nso4579/Documents/NWProject/NightWatch/node_modules/q/q.js:125:13)
     </system-err>
   
 
