@@ -78,7 +78,7 @@ module.exports = function(browser)
         browser
         .pause(3000)
         .waitForElementVisible('#mwf54')
-        .setValue('#mwf54','01/12/1970')
+        .setValue('#mwf54','01.01.1970')
     }
 
     this.street = function()
@@ -167,8 +167,8 @@ module.exports = function(browser)
     this.submit = function()
     {
         browser
-        .waitForElementVisible('#submit_0')
-        .click('submit_0')
+        .waitForElementVisible('.btn.webform__btn.js-webform-submit')
+        .click('.btn.webform__btn.js-webform-submit')
     }
 
     return this;
