@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="search"
+    errors="0" failures="1" hostname="" id="" package="search" skipped="0"
+    tests="1" time="25.33" timestamp="Mon, 10 Dec 2018 11:03:40 GMT">
+  
+    <testcase name="Search for Keyword" classname="search" time="25.33" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;#query&gt; to be visible for 9000 milliseconds.">    at searchkeyword (/Users/nso4579/Documents/NWProject/NightWatch/pages/searchPage.js:6:10)
+    at Object.Search for Keyword (/Users/nso4579/Documents/NWProject/NightWatch/tests/search.js:15:21)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
