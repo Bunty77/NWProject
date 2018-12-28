@@ -11,6 +11,7 @@ rheumatology:'https://rheumatology.medicinematters.com/',
 cardiology:'http://www.kardiologie.org',
 medwirenews:'https://www.medwirenews.com',
 dgim:'https://www.dgim-eakademie.de/',
-springerpflege:'https://www.springerpflege.de/'
+springerpflege:'https://www.springerpflege.de/',
+blog:'https://qaguide9.blogspot.com/'
 
 }
