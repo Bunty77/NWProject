@@ -8,6 +8,8 @@ before : function (browser)
     utils(browser).openBrowser(msg.smed);
 },
 
+
+
 'Go to login page': function(browser)
 {
     utils(browser).loginMainButton();

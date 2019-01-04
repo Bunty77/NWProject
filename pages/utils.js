@@ -16,10 +16,30 @@ module.exports = function(browser)
      
 };
 
+this.closeCookieBar=function() {
+    console.log('i am in Close cooki bar function')
+    browser.useXpath();
+    linkSelector = "(//div[@class='optanon-alert-box-button-middle'])[2]",
+    abortOnFailure = false,
+    time = 7000;
+    browser.waitForElementVisible(linkSelector, time, abortOnFailure, function(result){
+
+    if (result.status === 0) {
+
+        browser.click(linkSelector)
+
+    }
+
+});"The cookie bar could not be found.";
+};
+
+
+
 this.loginMainButton = function()
 {
      browser
     .useCss()
+    .pause(3000)
     .click('.personalisation__login')
     .waitForElementVisible('body',5000)
 };

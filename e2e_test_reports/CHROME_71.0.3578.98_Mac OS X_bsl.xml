@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="3"
             failures="0"
-            tests="2">
+            tests="3">
 
   <testsuite name="bsl"
     errors="3" failures="0" hostname="" id="" package="bsl" skipped="0"
-    tests="2" time="75.65" timestamp="Wed, 02 Jan 2019 06:39:09 GMT">
+    tests="3" time="75.90" timestamp="Wed, 02 Jan 2019 10:15:05 GMT">
   
-    <testcase name="Go to login page" classname="bsl" time="69.60" assertions="2">
+    <testcase name="Close Cookie Bar" classname="bsl" time="69.76" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="login as admin" classname="bsl" time="6.056" assertions="0">
+    <testcase name="Go to login page" classname="bsl" time="0.07900" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="login as admin" classname="bsl" time="6.060" assertions="0">
     </testcase>
   
 
   
     <system-err>
       ERROR: Unable to locate element: &#34;input[name=username]&#34; using: css selector
-    at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:31:6)
-    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:18:20)
+    at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:50:6)
+    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:23:20)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -32,8 +37,8 @@
     at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
     at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=password]&#34; using: css selector
-    at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:32:6)
-    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:18:20)
+    at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:51:6)
+    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:23:20)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -43,8 +48,8 @@ ERROR: Unable to locate element: &#34;input[name=password]&#34; using: css selec
     at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
     at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
 ERROR: Unable to locate element: &#34;input[name=submit]&#34; using: css selector
-    at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:33:6)
-    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:18:20)
+    at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:52:6)
+    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/bsl.js:23:20)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)

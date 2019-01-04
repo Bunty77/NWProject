@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="smed"
+    errors="0" failures="1" hostname="" id="" package="smed" skipped="2"
+    tests="3" time="125.9" timestamp="Wed, 02 Jan 2019 10:34:06 GMT">
+  
+    <testcase name="Close Cookie Bar" classname="smed" time="125.9" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 7000 milliseconds.">    at openBrowser (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:12:6)
+    at Object.before (/Users/nso4579/Documents/NWProject/NightWatch/tests/smed.js:8:20)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Go to login page" classname="smed">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="login as admin" classname="smed">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
