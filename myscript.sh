@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "hello world" //print to screen
+echo "$PATH"
 npm run nightwatch
 
