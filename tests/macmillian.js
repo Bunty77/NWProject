@@ -8,6 +8,11 @@ before : function (browser)
     utils(browser).openBrowser(msg.macmillanexplorers);
 },
 
+'Close Cookie Bar': function(browser)
+{
+utils(browser).closeCookieBar();
+},
+
 'Go to login page': function(browser)
 {
     utils(browser).loginMainButton();

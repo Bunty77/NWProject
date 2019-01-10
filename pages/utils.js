@@ -38,16 +38,17 @@ this.closeCookieBar=function() {
 this.loginMainButton = function()
 {
      browser
-    .useCss()
     .pause(3000)
+    .useCss()
+    .assert.elementPresent('.personalisation__login')
     .click('.personalisation__login')
-    .waitForElementVisible('body',5000)
+   
 };
 
 this.userLogin = function()
 {
     browser
-    .pause(3000)
+    .pause(5000)
     .setValue('input[name=username]','navnath.sujgure@springernature.com')
     .setValue('input[name=password]','Admin@12345')
     .click('input[name=submit]')

@@ -8,6 +8,11 @@ before : function (browser)
     utils(browser).openBrowser(msg.pflegenzuhause);
 },
 
+'Close Cookie Bar': function(browser)
+{
+utils(browser).closeCookieBar();
+},
+
 'Go to login page': function(browser)
 {
     utils(browser).loginMainButton();

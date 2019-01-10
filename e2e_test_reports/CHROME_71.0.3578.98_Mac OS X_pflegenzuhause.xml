@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
-            tests="2">
+            failures="0"
+            tests="3">
 
   <testsuite name="pflegenzuhause"
-    errors="0" failures="1" hostname="" id="" package="pflegenzuhause" skipped="1"
-    tests="2" time="10.22" timestamp="Wed, 02 Jan 2019 09:31:55 GMT">
+    errors="0" failures="0" hostname="" id="" package="pflegenzuhause" skipped="0"
+    tests="3" time="22.87" timestamp="Thu, 10 Jan 2019 06:41:23 GMT">
   
-    <testcase name="Go to login page" classname="pflegenzuhause" time="10.22" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 7000 milliseconds.">    at openBrowser (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:12:6)
-    at Object.before (/Users/nso4579/Documents/NWProject/NightWatch/tests/pflegenzuhause.js:8:20)</failure>
+    <testcase name="Close Cookie Bar" classname="pflegenzuhause" time="9.031" assertions="2">
 
     
+
+    
+    </testcase>
+  
+    <testcase name="Go to login page" classname="pflegenzuhause" time="3.078" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="login as admin" classname="pflegenzuhause" time="10.76" assertions="0">
     </testcase>
   
 
   
 
-  
-    
-    <testcase
-      name="login as admin" classname="pflegenzuhause">
-      <skipped />
-    </testcase>
-    
   
   </testsuite>
 </testsuites>
