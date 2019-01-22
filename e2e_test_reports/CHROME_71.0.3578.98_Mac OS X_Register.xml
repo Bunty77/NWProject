@@ -1,163 +1,108 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="2"
-            failures="0"
+<testsuites errors="0"
+            failures="1"
             tests="18">
 
   <testsuite name="Register"
-    errors="2" failures="0" hostname="" id="" package="Register" skipped="0"
-    tests="18" time="221.2" timestamp="Wed, 09 Jan 2019 08:56:51 GMT">
+    errors="0" failures="1" hostname="" id="" package="Register" skipped="13"
+    tests="18" time="27.79" timestamp="Thu, 17 Jan 2019 06:17:08 GMT">
   
-    <testcase name="Enter Email Address" classname="Register" time="106.1" assertions="1">
+    <testcase name="Enter Email Address" classname="Register" time="10.45" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Enter Password" classname="Register" time="0.1170" assertions="1">
+    <testcase name="Enter Password" classname="Register" time="0.1270" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Enter Salutation * " classname="Register" time="4.697" assertions="1">
+    <testcase name="Enter Salutation * " classname="Register" time="4.711" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Enter Title Prefix" classname="Register" time="3.730" assertions="1">
+    <testcase name="Enter Title Prefix" classname="Register" time="3.736" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Enter Title Sufix" classname="Register" time="3.703" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Enter First Name" classname="Register" time="3.118" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Enter Last Name" classname="Register" time="3.109" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Enter Date Of Birth" classname="Register" time="3.120" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Enter Street" classname="Register" time="3.248" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Enter Houseno" classname="Register" time="3.092" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Enter Addition house no Information" classname="Register" time="3.194" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Enter Postal Code" classname="Register" time="3.104" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Enter City" classname="Register" time="3.099" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Enter Country" classname="Register" time="4.727" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Enter Job" classname="Register" time="6.133" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Enter Work Area" classname="Register" time="6.723" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Checkbox first" classname="Register" time="0.1010" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="click on submit" classname="Register" time="60.05" assertions="1">
+    <testcase name="Enter Title Sufix" classname="Register" time="8.767" assertions="1">  <failure message="Timed out while waiting for element &lt;#mwf43&gt; to be present for 5000 milliseconds.">    at titleSufix (/Users/nso4579/Documents/NWProject/NightWatch/pages/RegisterPage.js:51:10)
+    at Object.Enter Title Sufix (/Users/nso4579/Documents/NWProject/NightWatch/tests/Register.js:32:23)</failure>
 
     
     </testcase>
   
 
   
-    <system-err>
-      ERROR: Unable to locate element: &#34;.webform__select[name=&#39;professionData.professionGroup&#39;]&#39;&#34; using: css selector
-    at job (/Users/nso4579/Documents/NWProject/NightWatch/pages/RegisterPage.js:142:10)
-    at Object.Enter Job (/Users/nso4579/Documents/NWProject/NightWatch/tests/Register.js:85:22)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-ERROR: Unable to locate element: &#34;.webform__select[name=&#39;professionData.professionGroup&#39;]&#39;&#34; using: css selector
-    at job (/Users/nso4579/Documents/NWProject/NightWatch/pages/RegisterPage.js:144:10)
-    at Object.Enter Job (/Users/nso4579/Documents/NWProject/NightWatch/tests/Register.js:85:22)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-ERROR: Unable to locate element: &#34;input[name=username]&#34; using: css selector
-    at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:51:6)
-    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/mmdiabetes.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-ERROR: Unable to locate element: &#34;input[name=password]&#34; using: css selector
-    at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:52:6)
-    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/mmdiabetes.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-ERROR: Unable to locate element: &#34;input[name=submit]&#34; using: css selector
-    at userLogin (/Users/nso4579/Documents/NWProject/NightWatch/pages/utils.js:53:6)
-    at Object.login as admin (/Users/nso4579/Documents/NWProject/NightWatch/tests/mmdiabetes.js:18:20)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-    </system-err>
-  
 
+  
+    
+    <testcase
+      name="Enter First Name" classname="Register">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter Last Name" classname="Register">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter Date Of Birth" classname="Register">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter Street" classname="Register">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter Houseno" classname="Register">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter Addition house no Information" classname="Register">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter Postal Code" classname="Register">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter City" classname="Register">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter Country" classname="Register">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter Job" classname="Register">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter Work Area" classname="Register">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Checkbox first" classname="Register">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="click on submit" classname="Register">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>
